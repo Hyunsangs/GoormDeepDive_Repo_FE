@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoormDeepDive</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+          
+            border-collapse: collapse;
+            margin: 20px 
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <!-- 헤더 Section -->
+    <header>
+        <h1>딥다이브 EXP 미션 수행하기!</h1>
+    </header>
+
+    <!-- 내비게이션 section -->
+    <nav>
+        <ul>
+            <li><a href="#home">홈</a></li>
+            <li><a href="#about">정보</a></li>
+            <li><a href="#services">서비스</a></li>
+            <li><a href="#contact">연락</a></li>
+            <li><a href="login.html">로그인</a></li>
+            <li><a href="register.html">회원가입</a></li>
+        </ul>
+    </nav>
+
+    <!-- 메인컨텐츠 Section -->
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>웬페이지 홈으로 가기.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>웹사이트에 대한 정보 소개</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <p>서비스 소개</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>자세한 사항 연락</p>
+        </section>
+
+        <form action="#" method="post">
+            <!-- 텍스트 입력 -->
+            <label for="username">사용자 이름:</label>
+            <input type="text" id="username" name="username" placeholder="이름을 입력하세요" required>
+            <br><br>
+
+            <!-- 체크박스 -->
+            <p>관심 분야:</p>
+            <input type="checkbox" id="coding" name="interest" value="coding">
+            <label for="coding">코딩</label><br>
+            <input type="checkbox" id="music" name="interest" value="music">
+            <label for="music">음악</label><br>
+            <input type="checkbox" id="sports" name="interest" value="sports">
+            <label for="sports">스포츠</label><br><br>
+
+            <!-- 라디오 버튼 -->
+            <p>성별:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">남성</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">여성</label><br><br>
+
+            <!-- 제출 버튼 -->
+            <input type="submit" value="제출">
+        </form>
+
+         <!-- 표 섹션 -->
+    <table>
+        <!-- 표 헤더 -->
+        <tr>
+            <th>이름</th>
+            <th>관심 분야</th>
+            <th>성별</th>
+        </tr>
+
+        <!-- 첫 번째 데이터 행 -->
+        <tr>
+            <td>김철수</td>
+            <td>코딩</td>
+            <td>남성</td>
+        </tr>
+
+        <!-- 두 번째 데이터 행 -->
+        <tr>
+            <td>이영희</td>
+            <td>음악</td>
+            <td>여성</td>
+        </tr>
+
+        <!-- 세 번째 데이터 행 -->
+        <tr>
+            <td>박철민</td>
+            <td>스포츠</td>
+            <td>남성</td>
+        </tr>
+    </table>
+
+    </main>
+
+    <!-- footer Section -->
+    <footer>
+        <p>&copy; 2024 연습사이트. All rights reserved.</p>
+    </footer>
+</body>
+</html>
