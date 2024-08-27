@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 3px solid lightgrey;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    
+
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px 20px;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    padding: 20px 20px;
+
+}
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+}
+
+.button_container {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.button1 {
+    width: 200px;
+    height: 100px;
+    margin-right: 200px;
+    transition: all 0.5s ease;
+    border: none;
+}
+
+
+.button1:hover {
+    transform: scale(1.2);
+    background-color: lightgreen;
+}
+
+
+.button2 {
+    transition: all 0.2s linear;
+    width: 200px;
+    height: 100px;
+    border: none;
+}
+
+.button2:hover {
+    transform: rotate(90deg);
+    background-color: rgb(105, 144, 105);
+}
